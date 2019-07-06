@@ -10,6 +10,8 @@ Then open in your browser
 ``http://localhost:1234``
 
 To move the figure use ``A`` and ``D`` keys.
+## Screenshot
+![screenshot](/screenshot.png?raw=true)
 
 ## Notes
 Collisions not implemented (and doubtly will be because pixel by pixel comparison kinda slow with canvas)
