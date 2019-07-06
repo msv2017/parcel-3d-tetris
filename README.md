@@ -1,6 +1,6 @@
 # parcel-3d-tetris
 
-WIP 3D Tetris using only css, javascript and parcel.
+(WIP) 3D Tetris using only css, html5 canvas, javascript and parcel.
 
 ## Build & Run
 In command line run
@@ -8,3 +8,8 @@ In command line run
 
 Then open in your browser
 ``http://localhost:1234``
+
+To move the figure use ``A`` and ``D`` keys.
+
+## Notes
+Collisions not implemented (and doubtly will be because pixel by pixel comparison kinda slow with canvas)
