@@ -1,0 +1,48 @@
+:root {
+  --side-size: 50vh;
+  --bottom-size: 35vh;
+}
+
+.side {
+  width: var(--side-size);
+  height: var(--side-size);
+  display: flex;
+  position: absolute;
+}
+
+.scene {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 57vh;
+}
+
+.bottom {
+  width: var(--bottom-size);
+  height: var(--bottom-size);
+  display: flex;
+  background-color: gray;
+  transform: translateZ(-0px);
+}
+
+.left {
+  background-color: green;
+  transform: translateX(-25vh) rotateY(90deg) rotateZ(-90deg);
+}
+
+.right {
+  background-color: yellow;
+  transform: translateX(25vh) rotateY(-90deg) rotateZ(90deg);
+}
+
+.up {
+  background-color: blue;
+  transform: translateY(-25vh) rotateX(90deg) rotateZ(180deg) rotateY(180deg);
+}
+
+.down {
+  background-color: coral;
+  transform: translateY(25vh) rotateX(-90deg) rotateY(180deg);
+}
